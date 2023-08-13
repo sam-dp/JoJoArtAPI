@@ -6,10 +6,12 @@ const port = 3000;
 
 app.use(express.json());
 
-app.get("/", (req, res) => {
-    res.send("Hello World");
-});
+// Routes
+app.use('/api/artentry/', artentryRoutes);
 
-app.use("/api/v1/artentry", artentryRoutes);
+// Catch-all route handler for unmatched routes
+app.use('*', (req, res) => {
+  return res.status(404).json({ error: 'Route not found' });
+});
 
 app.listen(port, () => console.log(`app listening on port: ${port}`));

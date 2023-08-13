@@ -1,12 +1,12 @@
 const pool = require('../../db');
 const queries = require('./queries');
 
-const getArtentries = (req, res) => {
-    pool.query(queries.getArtentries, (error, results) => {
-        if (error) throw error;
-        res.status(200).json(results.rows);
-    });
-};
+// const getArtentries = (req, res) => {
+//     pool.query(queries.getArtentries, (error, results) => {
+//         if (error) throw error;
+//         res.status(200).json(results.rows);
+//     });
+// };
 
 const getArtentryById = (req, res) => {
     const id = parseInt(req.params.id);
@@ -17,6 +17,6 @@ const getArtentryById = (req, res) => {
 }
 
 module.exports = {
-    getArtentries,
+    //getArtentries,
     getArtentryById,
 };
