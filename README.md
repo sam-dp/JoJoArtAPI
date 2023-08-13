@@ -15,7 +15,8 @@ API
 
 Database
 * [PostgreSQL](https://www.postgresql.org/) - Database
-* [Psycopg](https://pypi.org/project/psycopg2/) - Python CRUD
+* [Python](https://www.python.org/) - CRUD script
+* [Psycopg](https://pypi.org/project/psycopg2/) - Python PostgreSQL adapter
 
 ---
 
