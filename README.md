@@ -14,7 +14,7 @@ API
 * [node-postgres](https://node-postgres.com/) - Interacting with PostgreSQL database
 
 Database
-* [PostgreSQL](https://www.postgresql.org/) - Database*
+* [PostgreSQL](https://www.postgresql.org/) - Database
 * [Psycopg](https://pypi.org/project/psycopg2/) - Python CRUD
 
 ---
