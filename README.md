@@ -12,11 +12,22 @@ API
 * [NodeJS](https://nodejs.org/en) - Built with Node
 * [ExpressJS](https://expressjs.com/) - Web Application Framework
 * [node-postgres](https://node-postgres.com/) - Interacting with PostgreSQL database
+* [Postman](https://www.postman.com/) - Testing API endpoints
 
 Database
 * [PostgreSQL](https://www.postgresql.org/) - Database
 * [Python](https://www.python.org/) - CRUD script
 * [Psycopg](https://pypi.org/project/psycopg2/) - Python PostgreSQL adapter
+
+---
+
+### Installation and Usage
+
+Must have the above installed on your machine, although Postman is optional for testing. 
+
+Once you have created a ```PostgreSQL``` database using the name "jojoart" and password "password" (in my case), use ```script.py``` to write to the database every art entry.
+
+Use ```node server.js``` in the terminal to start the server.
 
 ---
 
