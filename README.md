@@ -1,7 +1,7 @@
 # JoJoArtAPI
 JoJo Art API is a simple Web API designed for the purposes of a Public GET-only API. It connects to a local ```PostgreSQL``` database containing artwork and its relevant information and returns information in a ```JSON``` format from a single endpoint ```localhost:3000/api/artentry/:id```.
 
-Data for the database was adapted from a pickled object via a [previous project](https://github.com/sam-dp/JoJos-Art-Scraper-and-Viewer), using a ```Python``` script for CRUD operations.
+Data for the database was adapted from a [previous project](https://github.com/sam-dp/JoJos-Art-Scraper-and-Viewer), using a ```Python``` script with ```Psycopg``` for CRUD operations.
 
 All artwork content is sourced from the [JoJo's Bizarre Encyclopedia - JoJo Wiki](https://jojowiki.com/Art_Gallery) website.
 
