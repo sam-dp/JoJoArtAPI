@@ -12,6 +12,7 @@ API
 * [NodeJS](https://nodejs.org/en) - Built with Node
 * [ExpressJS](https://expressjs.com/) - Web Application Framework
 * [node-postgres](https://node-postgres.com/) - Interacting with PostgreSQL database
+* [Postman](https://www.postman.com/) - Testing API endpoints
 
 Database
 * [PostgreSQL](https://www.postgresql.org/) - Database
