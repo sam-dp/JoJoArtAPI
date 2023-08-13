@@ -21,6 +21,16 @@ Database
 
 ---
 
+### Installation and Usage
+
+Must have the above installed on your machine, although Postman is optional for testing. 
+
+Once you have created a ```PostgreSQL``` database using the name "jojoart" and password "password" (in my case), use ```script.py``` to write to the database every art entry.
+
+Use ```node server.js``` in the terminal to start the server.
+
+---
+
 ### Example
 
 GET Request
